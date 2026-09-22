@@ -1,4 +1,4 @@
-const baseURL = "http://localhost:3001/todos";
+const baseURL = "http://localhost:3000/todos";
 
 export const getTodos = async () => {
   const response = await fetch(baseURL);
